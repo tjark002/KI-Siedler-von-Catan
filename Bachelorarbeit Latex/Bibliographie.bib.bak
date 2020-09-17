@@ -1,0 +1,198 @@
+% Encoding: windows-1252
+
+@BOOK{BoeckleKnauberPohl+04,
+  title = {Software-Produktlinien},
+  publisher = {Dpunkt-Verlag},
+  year = {2004},
+  author = {Günther B{\"o}ckle and Peter Knauber and Klaus Pohl and Klaus Schmid},
+}
+
+@Proceedings{FerreiraMalikKaestnerPfefferApel16,
+  title  = {Do ifdefs Influence the Occurrence of Vulnerabilities? An Empirical Study of the Linux Kernel},
+  year   = {2016},
+  editor = {Gabriel Ferreira; Momin Malik;Christian Kästner;Jürgen Pfeffer;Sven Apel},
+}
+
+@InProceedings{Liebig2010,
+  author    = {Liebig, J\"{o}rg and Apel, Sven and Lengauer, Christian and K\"{a}stner, Christian and Schulze, Michael},
+  title     = {An Analysis of the Variability in Forty Preprocessor-based Software Product Lines},
+  booktitle = {Proceedings of the 32Nd ACM/IEEE International Conference on Software Engineering - Volume 1},
+  year      = {2010},
+  series    = {ICSE '10},
+  pages     = {105--114},
+  address   = {New York, NY, USA},
+  publisher = {ACM},
+  acmid     = {1806819},
+  doi       = {10.1145/1806799.1806819},
+  isbn      = {978-1-60558-719-6},
+  keywords  = {C preprocessor, empirical study, software product lines},
+  location  = {Cape Town, South Africa},
+  numpages  = {10},
+  url       = {http://doi.acm.org/10.1145/1806799.1806819},
+}
+
+@Misc{BuseWeimer,
+  author = {Raymond P.L. Buse; Westley R. Weimer},
+  title  = {A Metric for Software Readability},
+  year   = {2008},
+}
+
+@Misc{TrendowiczPunter08,
+  author = {Adam Trendowicz and Teade Punter},
+  title  = {Quality Modeling for Software Product Lines},
+  month  = jul,
+  year   = {2008},
+}
+
+@Misc{ASTGSD06,
+  author = {Gentzane Aldekoa; Salvador Trujillo; Goiuria Sagardui; Oscar Díaz},
+  title  = {EXPERIENCE MEASURING MAINTAINABILITY IN SOFTWARE PRODUCT LINES},
+  month  = jan,
+  year   = {2006},
+}
+
+@InProceedings{Zhang2008,
+  author    = {Tao Zhang and Lei Deng and Jian Wu and Qiaoming Zhou and Chunyan Ma},
+  title     = {Some Metrics for Accessing Quality of Product Line Architecture},
+  booktitle = {2008 International Conference on Computer Science and Software Engineering},
+  year      = {2008},
+  publisher = {{IEEE}},
+  doi       = {10.1109/csse.2008.500},
+}
+
+@InProceedings{Bakota2011,
+  author    = {Heged{\H{u}}s, P{\'e}ter and Bakota, Tibor and Ill{\'e}s, L{\'a}szl{\'o} and Lad{\'a}nyi, Gergely and Ferenc, Rudolf and Gyim{\'o}thy, Tibor},
+  title     = {Source Code Metrics and Maintainability: A Case Study},
+  booktitle = {Software Engineering, Business Continuity, and Education},
+  year      = {2011},
+  editor    = {Kim, Tai-hoon and Adeli, Hojjat and Kim, Haeng-kon and Kang, Heau-jo and Kim, Kyung Jung and Kiumi, Akingbehin and Kang, Byeong-Ho},
+  pages     = {272--284},
+  address   = {Berlin, Heidelberg},
+  publisher = {Springer Berlin Heidelberg},
+  abstract  = {Measuring high level quality attributes of operation-critical IT systems is essential for keeping the maintainability costs under control. International standards and recommendations, like ISO/IEC 9126, give some guidelines regarding the different quality characteristics to be assessed, however, they do not define unambiguously their relationship to the low level quality attributes. The vast majority of existing quality models use source code metrics for measuring low level quality attributes. Although, a lot of researches analyze the relation of source code metrics to other objective measures, only a few studies deal with their expressiveness of subjective feelings of IT professionals. Our research involved 35 IT professionals and manual evaluation results of 570 class methods of an industrial and an open source Java system. Several statistical models have been built to evaluate the relation of low level source code metrics and high level subjective opinions of IT experts. A decision tree based classifier achieved a precision of over 76{\%} during the estimation of the Changeability ISO/IEC 9126 attribute.},
+  isbn      = {978-3-642-27207-3},
+}
+
+@Article{El-Sharkawy2019,
+  author    = {Sascha El-Sharkawy and Nozomi Yamagishi-Eichler and Klaus Schmid},
+  title     = {Metrics for analyzing variability and its implementation in software product lines: A systematic literature review},
+  journal   = {Information and Software Technology},
+  year      = {2019},
+  volume    = {106},
+  pages     = {1--30},
+  month     = {feb},
+  doi       = {10.1016/j.infsof.2018.08.015},
+  publisher = {Elsevier {BV}},
+}
+
+@InProceedings{Chowdhury2010,
+  author    = {Chowdhury, Istehad and Zulkernine, Mohammad},
+  title     = {Can Complexity, Coupling, and Cohesion Metrics Be Used As Early Indicators of Vulnerabilities?},
+  booktitle = {Proceedings of the 2010 ACM Symposium on Applied Computing},
+  year      = {2010},
+  series    = {SAC '10},
+  pages     = {1963--1969},
+  address   = {New York, NY, USA},
+  publisher = {ACM},
+  acmid     = {1774504},
+  doi       = {10.1145/1774088.1774504},
+  isbn      = {978-1-60558-639-7},
+  keywords  = {cohesion, complexity, coupling, empirical study, security, software metrics, software security, vulnerability},
+  location  = {Sierre, Switzerland},
+  numpages  = {7},
+  url       = {http://doi.acm.org/10.1145/1774088.1774504},
+}
+
+@InProceedings{Zimmermann2008,
+  author    = {Thomas Zimmermann and Nachiappan Nagappan},
+  title     = {Predicting defects using network analysis on dependency graphs},
+  booktitle = {Proceedings of the 13th international conference on Software engineering - {ICSE} {\textquotesingle}08},
+  year      = {2008},
+  publisher = {{ACM} Press},
+  doi       = {10.1145/1368088.1368161},
+}
+
+@InProceedings{Nagappan2006,
+  author    = {Nachiappan Nagappan and Thomas Ball and Andreas Zeller},
+  title     = {Mining metrics to predict component failures},
+  booktitle = {Proceeding of the 28th international conference on Software engineering - {ICSE} {\textquotesingle}06},
+  year      = {2006},
+  publisher = {{ACM} Press},
+  doi       = {10.1145/1134285.1134349},
+}
+
+@Article{Hunsen2015,
+  author    = {Claus Hunsen and Bo Zhang and Janet Siegmund and Christian Kästner and Olaf Le{\ss}enich and Martin Becker and Sven Apel},
+  title     = {Preprocessor-based variability in open-source and industrial software systems: An empirical study},
+  journal   = {Empirical Software Engineering},
+  year      = {2015},
+  volume    = {21},
+  number    = {2},
+  pages     = {449--482},
+  month     = {apr},
+  doi       = {10.1007/s10664-015-9360-1},
+  publisher = {Springer Science and Business Media {LLC}},
+}
+
+@InProceedings{Georgiev2012,
+  author    = {Martin Georgiev and Subodh Iyengar and Suman Jana and Rishita Anubhai and Dan Boneh and Vitaly Shmatikov},
+  title     = {The most dangerous code in the world},
+  booktitle = {Proceedings of the 2012 {ACM} conference on Computer and communications security - {CCS} {\textquotesingle}12},
+  year      = {2012},
+  publisher = {{ACM} Press},
+  doi       = {10.1145/2382196.2382204},
+}
+
+@Book{Newman2018,
+  title     = {Networks},
+  publisher = {Oxford University Press},
+  year      = {2018},
+  author    = {Newman, Mark},
+  isbn      = {0198805098},
+  date      = {2018-07-26},
+  ean       = {9780198805090},
+  pagetotal = {800},
+  url       = {https://www.ebook.de/de/product/32966014/mark_newman_networks.html},
+}
+
+@InProceedings{Abilio2016,
+  author    = {Ramon Abilio and Gustavo Vale and Eduardo Figueiredo and Heitor Costa},
+  title     = {Metrics for feature-oriented programming},
+  booktitle = {Proceedings of the 7th International Workshop on Emerging Trends in Software Metrics - {WETSoM} {\textquotesingle}16},
+  year      = {2016},
+  publisher = {{ACM} Press},
+  doi       = {10.1145/2897695.2897701},
+}
+
+@InProceedings{Fenske2015,
+  author    = {Wolfram Fenske and Sandro Schulze and Daniel Meyer and Gunter Saake},
+  title     = {When code smells twice as much: Metric-based detection of variability-aware code smells},
+  booktitle = {2015 {IEEE} 15th International Working Conference on Source Code Analysis and Manipulation ({SCAM})},
+  year      = {2015},
+  month     = {sep},
+  publisher = {{IEEE}},
+  doi       = {10.1109/scam.2015.7335413},
+}
+
+@InCollection{Lopez,
+  author    = {Roberto E. Lopez-Herrejon and Sven Apel},
+  title     = {Measuring and Characterizing Crosscutting in Aspect-Based Programs: Basic Metrics and Case Studies},
+  booktitle = {Fundamental Approaches to Software Engineering},
+  publisher = {Springer Berlin Heidelberg},
+  pages     = {423--437},
+}
+
+@Article{Chidamber1994,
+  author    = {S.R. Chidamber and C.F. Kemerer},
+  title     = {A metrics suite for object oriented design},
+  journal   = {{IEEE} Transactions on Software Engineering},
+  year      = {1994},
+  volume    = {20},
+  number    = {6},
+  pages     = {476--493},
+  month     = {jun},
+  doi       = {10.1109/32.295895},
+  publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}

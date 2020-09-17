@@ -1,0 +1,36 @@
+\section{Ergänzungen zum abgebildeten Quellcode}
+\definecolor{bluekeywords}{rgb}{0,0,1}
+\definecolor{greencomments}{rgb}{0,0.5,0}
+\definecolor{redstrings}{rgb}{0.64,0.08,0.08}
+\definecolor{xmlcomments}{rgb}{0.5,0.5,0.5}
+\definecolor{types}{rgb}{0.17,0.57,0.68}
+
+
+\lstset{language=[Sharp]C,
+	captionpos=b,
+	%numbers=left, %Nummerierung
+	%numberstyle=\tiny, % kleine Zeilennummern
+	frame=lines, % Oberhalb und unterhalb des Listings ist eine Linie
+	showspaces=false,
+	showtabs=false,
+	breaklines=true,
+	showstringspaces=false,
+	breakatwhitespace=true,
+	escapeinside={(*@}{@*)},
+	commentstyle=\color{greencomments},
+	morekeywords={partial, var, value, get, set},
+	keywordstyle=\color{bluekeywords},
+	stringstyle=\color{redstrings},
+	basicstyle=\ttfamily\small,
+}
+
+\lstinputlisting[label=lst:Tile,caption={Hilfsklasse: Tile}]{Listings/Tile.cs}
+
+\lstinputlisting[label=lst:GamemanagerAwakeAndStart,caption={Gamemanger: Start- und Awake-Methode}]{Listings/GameManagerAwakeAndStart.cs}
+
+\lstinputlisting[label=lst:CollectResourcesForVillage,caption={PlayerScript-Methode zum Sammeln von Ressourcen für eine bestimmte Siedlung}]{Listings/CollectResourcesForVillage.cs}
+
+\lstinputlisting[label=lst:CalculatePreferencePlayer1,caption={Methode des Status zum Berechnen der Präferenz von Spieler 1}]{Listings/CalculatePreferencePlayer1.cs}
+
+\includepdf[pages=1,scale=.8,pagecommand=\section{Regelwerk: Siedler von Catan}]{Bilder/Siedler-von-Catan-Regeln}
+\includepdf[pages=2-11,scale=.8,pagecommand={}]{Bilder/Siedler-von-Catan-Regeln}

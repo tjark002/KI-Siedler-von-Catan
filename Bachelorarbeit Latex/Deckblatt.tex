@@ -1,0 +1,39 @@
+% Erzeugt das Deckblatt
+%   Bei zu langem Arbeitstitel müssen die vertikalen Abstände (\vspace)
+%   angepasst werden, damit das Deckblatt weiterhin auf eine Seite passt.
+\begin{titlepage}
+\newgeometry{top=2cm,bottom=2cm,left=2cm,right=2cm}
+\begin{flushleft}
+	%\includegraphics[width=6.75cm]{Abbildungen/luh_logo.ps}\\
+	{\Large Universit"at Hildesheim \\
+		\large Institut f"ur Informatik} \\
+	\begin{flushright}\vspace*{-5cm}
+		\includegraphics[scale=0.087]{uni_hi_logo.pdf}
+	\end{flushright}
+\end{flushleft}
+
+\begin{center}
+	\vspace{3cm}
+	\Huge{\textbf{\titel}}
+\end{center}
+\begin{center}
+    \vspace*{3cm}
+    \large{\textbf{\art~im Studiengang \studiengang}}\\
+    Sommersemester 2020
+    \vspace{1cm}
+\end{center}
+\begin{center}
+vorgelegt von \\[1.5ex] 
+\textbf{Tjark Harjes} \\[1.5ex]
+Matr.-Nr.: 301249 \\
+4. Semester IMIT \\
+E-Mail: harjes@uni-hildesheim.de\\[1.5cm]
+Hildesheim, den \textbf{07.06.2020} \\ 
+\end{center} 
+\begin{flushleft}
+	\vspace{4cm}
+	\textbf{Erstgutachter: } \erstgutachter \\
+	\textbf{Zweitgutachter: } \zweitgutachter
+\end{flushleft}
+\end{titlepage}
+\restoregeometry
