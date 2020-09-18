@@ -3,7 +3,7 @@ Projektdateien zur Bachelorarbeit "Die Entwicklung eines Strategiespiels, das es
 
 Im Ordner "Unity Projekt" ist der Quellcode des Spiels zu finden. 
 
-"Runnable" enthält eine ausführbare Version der Software
+"KI Siedler von Catan" enthält eine ausführbare Version der Software
 
 "Java Klassen" enthält die KI und die Schnittstelle
 
